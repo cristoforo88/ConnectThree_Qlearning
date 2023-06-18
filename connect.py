@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Aug  1 22:01:17 2022
+Created on Mon Aug  1 22:01:17 2021
 
-@author: crist
+@author: Cristoforo Grasso
 """
-## Old development version
 import numpy as np
 import utils
 
