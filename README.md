@@ -1,15 +1,16 @@
-#Connect3 Q-Learning Agent#
+# Connect3 Q-Learning Agent
 
 This repository contains the code for a Connect3 game playing agent, developed using the Q-Learning reinforcement learning algorithm. The purpose of this software is to train an intelligent agent that can play Connect3 competently.
 
-#Project Structure#
+# Project Structure#
 
 src/ : Contains the source code for the game logic and the Q-Learning agent.
 models/ : Contains the saved Q-Table models from previous training runs.
 tests/ : Contains unit tests for the game logic and the learning agent.
 utils/ : Contains utility functions used throughout the project.
 
-How it Works
+# How it Works
+
 This software uses the Q-Learning algorithm for reinforcement learning to create a game playing agent. The process loop forever following these steps:
 
 Select a state, S ∈ S, and an action, A ∈ A(S), at random.
@@ -26,7 +27,7 @@ maxa Q(S', a) represents the maximum Q-value for the next state across all possi
 R represents the immediate reward received after performing the action A.
 
 
-#Dependencies#
+# Dependencies
 
 The project has been implemented in Python and has the following dependencies:
 
@@ -34,7 +35,7 @@ Python 3.8+
 numpy
 pandas
 
-#Installation & Setup#
+# Installation & Setup
 
 Clone the repository to your local machine.
 bash
@@ -51,14 +52,15 @@ Running the Code
 You can run the main script in the project root directory:
 
 python main.py
-Testing
+
+# Testing
 
 To run the tests, you can use the following command:
 
 
 python -m unittest discover tests
 
-Contributing
+# Contributing
+
 If you find any bugs or issues, feel free to create an issue or open a pull request.
 
-License
